@@ -1,0 +1,102 @@
+* {
+  color: black;
+  font-family: Arsenal, sans-serif;
+}
+body {
+  margin: 0 auto;
+  margin-left: 63px;
+  background: #f4dada;
+}
+a {
+  text-decoration: none;
+}
+ul {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  list-style: none;
+  margin: 0;
+  margin-right: 90px;
+  padding: 0;
+}
+header {
+  display: flex;
+  gap: 205px;
+  margin-top: 57px;
+}
+.logo {
+  display: flex;
+  align-items: center;
+  font-weight: 700;
+  font-style: italic;
+  font-size: 36px;
+}
+nav {
+  display: flex;
+}
+.nav-link {
+  font-size: 32px;
+  font-style: italic;
+  line-height: 0.7;
+}
+.nav-button {
+  width: 305px;
+  height: 90px;
+
+  border: none;
+  border-radius: 20px;
+
+  background-color: #e1b1b1;
+  color: black;
+
+  width: 400;
+  font-size: 30px;
+  line-height: 0.8;
+  text-align: center;
+}
+.bground-img {
+  min-width: 15%;
+  position: relative;
+  border-radius: 20px;
+  margin-top: 63px;
+  margin-bottom: 94px;
+}
+.img-text {
+  position: absolute;
+  top: 48%;
+  padding-left: 105px;
+  margin: 0;
+}
+h1 {
+  font-family: Anglecia Pro Display;
+  font-style: italic;
+  font-size: 72px;
+  font-weight: 400;
+  margin: 0;
+}
+p {
+  padding-top: 10px;
+  padding-bottom: 130px;
+  margin-top: 10px;
+  font-style: italic;
+  font-weight: 400;
+  font-size: 36px;
+  line-height: 0.8;
+}
+.img-button {
+  width: 305px;
+  height: 90px;
+  margin: 0;
+
+  border-width: 1px;
+  border-radius: 20px;
+  border-color: black;
+
+  background-color: #e1b1b1;
+  color: black;
+
+  width: 400;
+  font-size: 40px;
+  line-height: 0.8;
+  text-align: center;
+}
